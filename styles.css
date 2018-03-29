@@ -116,8 +116,7 @@ div.top-foot {
 	padding: 200px;
 	background-color: white;
 }
-
-.search-query input[type=text]
+input[type=text]
 {
     width: 100%;
     box-sizing: border-box;
