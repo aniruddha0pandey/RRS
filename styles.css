@@ -23,17 +23,7 @@ nav {
     top: 0;
 }
 
-div.search-query {
-	background-color: white;
-	padding: 24px;
-}
-
-form {
-	position: absolute;
-	right: 15%;
-}
-
- #logo {
+#logo {
  	position: absolute;
  	width: 150px;
  	height: 160px;
@@ -125,4 +115,27 @@ div.top-foot {
 	grid-column: 1 / 4;
 	padding: 200px;
 	background-color: white;
+}
+
+.search-query input[type=text]
+{
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 23px;
+    font-size: 11px;
+    background-color: white;
+    background-image: url('img/search-icon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 8px 20px 8px 45px;
+}
+
+div.search-query {
+	background-color: white;
+	padding: 14px;
+}
+
+form {
+	padding-left: 25%;
 }
