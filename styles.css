@@ -99,7 +99,7 @@ main {
 article {
 	grid-column: 1 / 4;
 	grid-row: 1 / 5;
-	background-color: red;
+	background-color: grey;
 	font-size: 30px;
 }
 
@@ -107,7 +107,7 @@ aside {
 	position: relative;
 	grid-column: 3;
 	grid-row: 1 / 2;
-	background-color: blue;
+	background-color: white;
 	font-size: 30px;
 }
 
