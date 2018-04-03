@@ -7,6 +7,7 @@
 		vertical-align: middle;
 		margin: auto;
 		background-image: url("img/background.jpg");
+		min-width: 650px;
 	}
 }
 
