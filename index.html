@@ -60,73 +60,67 @@
 		</ul>
 	</nav>
 
-<div class="main-overlay">
+	<div class="main-overlay">
 
-	<div id="overlay"><img id="overlay-off" onclick="off()" src="img/fileclose.png" />
+		<div id="overlay"><img id="overlay-off" onclick="off()" src="img/fileclose.png" />
 
-		<div class="cotn_principal">
+			<div class="cotn_principal">
 
-			<div class="cont_centrar">
+				<div class="cont_centrar">
 
-				<div class="cont_login">
+					<div class="cont_login">
 
-					<div class="cont_info_log_sign_up">
-						<div class="col_md_login">
-							<div class="cont_ba_opcitiy">
-								        
-								<h2>LOGIN</h2>  
-								<p>Sign In to make Reservation.</p> 
-								<button class="btn_login" onclick="cambiar_login()">LOGIN</button>
+						<div class="cont_info_log_sign_up">
 
+							<div class="col_md_login">
+								<div class="cont_ba_opcitiy">
+									<h2>LOGIN</h2>  
+									<p>Sign In to make Reservation.</p> 
+									<button class="btn_login" onclick="cambiar_login()">LOGIN</button>
+								</div>
 							</div>
+
+							<div class="col_md_sign_up">
+								<div class="cont_ba_opcitiy">
+									<h2>SIGN UP</h2>
+									<p>Sign Up to Sign In.</p>
+									<button class="btn_sign_up" onclick="cambiar_sign_up()">SIGN UP</button>
+								</div>
+							</div>
+
 						</div>
-						<div class="col_md_sign_up">
-							<div class="cont_ba_opcitiy">
+
+						    
+						<div class="cont_back_info">
+							<div class="cont_img_back_grey"><img src="img/sign-in-back.jpg" /></div>
+						</div>
+
+						<div class="cont_forms">
+
+							<div class="cont_img_back_"><img src="img/sign-in-back.jpg" /></div>
+
+							<div class="cont_form_login">
+								<a href="#" onclick="ocultar_login_sign_up()"><i class="material-icons"><img src="img/back-arrow.png"></i></a>
+								<h2>LOGIN</h2>
+								<input type="text" placeholder="Email" />
+								<input type="password" placeholder="Password" />
+								<button class="btn_login" onclick="cambiar_login()">LOGIN</button>
+							</div>
+							  
+							<div class="cont_form_sign_up">
+								<a href="#" onclick="ocultar_login_sign_up()"><i class="material-icons"><img src="img/back-arrow.png"></i></a>
 								<h2>SIGN UP</h2>
-
-								  
-								<p>Sign Up to Sign In.</p>
-
+								<input type="text" placeholder="Email" />
+								<input type="text" placeholder="User" />
+								<input type="password" placeholder="Password" />
+								<input type="password" placeholder="Confirm Password" />
 								<button class="btn_sign_up" onclick="cambiar_sign_up()">SIGN UP</button>
 							</div>
-						</div>
-					</div>
 
+						</div>
 					    
-					<div class="cont_back_info">
-						<div class="cont_img_back_grey">
-							<img src="img/sign-in-back.jpg" />
-						</div>
 					</div>
 
-					<div class="cont_forms">
-
-						<div class="cont_img_back_">
-							<img src="img/sign-in-back.jpg" />
-						</div>
-
-						<div class="cont_form_login">
-							<a href="#" onclick="ocultar_login_sign_up()"><i class="material-icons"><img src="img/back-arrow.png"></i></a>
-							<h2>LOGIN</h2>
-							<input type="text" placeholder="Email" />
-							<input type="password" placeholder="Password" />
-							<button class="btn_login" onclick="cambiar_login()">LOGIN</button>
-						</div>
-						  
-						<div class="cont_form_sign_up">
-
-							<a href="#" onclick="ocultar_login_sign_up()"><i class="material-icons"><img src="img/back-arrow.png"></i></a>
-							<h2>SIGN UP</h2>
-							<input type="text" placeholder="Email" />
-							<input type="text" placeholder="User" />
-							<input type="password" placeholder="Password" />
-							<input type="password" placeholder="Confirm Password" />
-							<button class="btn_sign_up" onclick="cambiar_sign_up()">SIGN UP</button>
-
-						</div>
-
-					</div>
-				    
 				</div>
 
 			</div>
@@ -135,30 +129,40 @@
 
 	</div>
 
-</div>
-
 	<main>
+
 		<article>
 			<h2 align="center">What is Railway Registration?</h2><br><br>
-				Book your train  There are a few ways you can go about making a reservation -- online, or in person at a travel agency or Railways booking counter.First Thing to do is Find your train.<br>
+				<p>
+					Book your train  There are a few ways you can go about making a reservation -- online, or in person at a travel agency or Railways booking counter.First Thing to do is Find your train.
+				</p><br>
 		</article>
 
 		<div id="buffer">
-			In our website introduced reservation
-			Click on it, on the top left side of the screen after you've logged in.<br>1.Enter the details of the station you want to depart from, the station you want to travel to, and your journey date.<br>2.Select the desired train and class you wish to travel by (and quota if relevant), and check the availability of beds. You can also see the train fare.<br>3.Once you've found a suitable train to travel on, click on the "Book Now" option under "Availability". You will be taken to the ticket reservation page, with the details of the train you selected automatically provided. Fill in the passenger details, and make payment.
+			<p>
+				In our website introduced reservation
+				Click on it, on the top left side of the screen after you've logged in.<br>1.Enter the details of the station you want to depart from, the station you want to travel to, and your journey date.<br>2.Select the desired train and class you wish to travel by (and quota if relevant), and check the availability of beds. You can also see the train fare.<br>3.Once you've found a suitable train to travel on, click on the "Book Now" option under "Availability". You will be taken to the ticket reservation page, with the details of the train you selected automatically provided. Fill in the passenger details, and make payment.
+			</p>
 		</div>
 
-		<div id="additional"></div>
-
 		<aside>
-			<div class="sign-box"></div>
+			<div class="sign-box">
+				<!-- Something -->
+			</div>
 		</aside>
-		<div class="top-foot"></div>
+
+		<div id="additional">
+			<!-- How to Read a Train Ticket -->
+		</div>
+
+		<div class="top-foot">
+			<!-- Slide Show -->
+		</div>
+
 	</main>
 
 	<footer>
-		
+		<!-- Social Links -->
 	</footer>
-
 </body>
 </html>
