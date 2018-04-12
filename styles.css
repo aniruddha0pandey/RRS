@@ -155,7 +155,7 @@ div.top-foot {
 }
 
 div.search-query {
-	background-color: white;
+	background-color: none;
 	padding-top: 24px;
 	padding-bottom: 5px;
 }
