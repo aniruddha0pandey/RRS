@@ -1,0 +1,21 @@
+.cd-top {
+  display: inline-block;
+  height: 200px;
+  width: 50px;
+  position: fixed;
+  bottom: 40px;
+  left: 10px;
+  /* image replacement properties */
+  overflow: hidden;
+  text-indent: 100%;
+  background: url(../img/untitled.svg) no-repeat center 50%;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .3s 0s, visibility 0s .3s, background-color .3s 0s;
+}
+
+.cd-top.cd-top--show {
+  /* the button becomes visible */
+  visibility: visible;
+  opacity: 1;
+}
